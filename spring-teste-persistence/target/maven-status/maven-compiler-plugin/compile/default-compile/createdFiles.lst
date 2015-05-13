@@ -1,0 +1,3 @@
+com\bioaba\springteste\persistence\entity\base\AbstractEntity.class
+com\bioaba\springteste\persistence\repository\IStudentRepository.class
+com\bioaba\springteste\persistence\entity\Student.class

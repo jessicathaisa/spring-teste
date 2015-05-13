@@ -1,0 +1,7 @@
+com\bioaba\springteste\web\validation\StudentValidator.class
+com\bioaba\springteste\web\domain\Teste.class
+com\bioaba\springteste\web\controller\TesteController.class
+com\bioaba\springteste\web\controller\base\AbstractCrudController.class
+com\bioaba\springteste\web\validation\base\AbstractValidator.class
+com\bioaba\springteste\web\controller\StudentController.class
+com\bioaba\springteste\web\validation\util\ErrorCode.class

@@ -1,0 +1,4 @@
+com\bioaba\springteste\core\service\StudentService.class
+com\bioaba\springteste\core\facade\StudentFacade.class
+com\bioaba\springteste\core\facade\base\AbstractCrudFacade.class
+com\bioaba\springteste\core\service\base\AbstractCrudService.class
