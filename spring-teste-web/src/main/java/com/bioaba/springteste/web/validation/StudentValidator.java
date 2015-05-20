@@ -1,11 +1,12 @@
 package com.bioaba.springteste.web.validation;
 
+import org.springframework.stereotype.Component;
 import org.springframework.validation.Validator;
 
 import com.bioaba.springteste.persistence.entity.Student;
 import com.bioaba.springteste.web.validation.base.AbstractValidator;
 
-
+@Component
 public class StudentValidator extends AbstractValidator<Student> implements Validator{
 
 	public StudentValidator() {

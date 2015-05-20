@@ -19,10 +19,7 @@
 	
 	<context:component-scan base-package="com.bioaba.springteste.core.facade" />
 	<context:component-scan base-package="com.bioaba.springteste.core.service" />
-	<context:component-scan base-package="com.bioaba.springteste.core.facade.base" />
-	<context:component-scan base-package="com.bioaba.springteste.core.service.base" />
 	<context:component-scan base-package="com.bioaba.springteste.persistence.repository" />
-	<context:component-scan base-package="com.bioaba.springteste.web.controller" />
 	<context:component-scan base-package="com.bioaba.springteste.web.validation" />
 
 </beans>
