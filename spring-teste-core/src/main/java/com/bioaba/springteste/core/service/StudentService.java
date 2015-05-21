@@ -1,6 +1,8 @@
 package com.bioaba.springteste.core.service;
 
 
+import javax.inject.Inject;
+
 import org.springframework.stereotype.Service;
 
 import com.bioaba.springteste.core.service.base.AbstractCrudService;
@@ -13,15 +15,11 @@ public class StudentService extends AbstractCrudService<Student> {
 
 	protected IStudentRepository iStudentRepository;
 	
-	/*
+	
 	@Inject
 	public StudentService(IStudentRepository repository) {
 		super(repository);
 		this.iStudentRepository = repository;	
-	}
-	*/
-	public StudentService() {
-		super(null);
 	}
 
 }

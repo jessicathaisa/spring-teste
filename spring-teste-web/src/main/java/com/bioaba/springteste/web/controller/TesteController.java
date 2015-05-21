@@ -11,24 +11,24 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.bioaba.springteste.web.domain.Teste;
 
-@Controller
-@RequestMapping("/teste")
+/*@Controller
+@RequestMapping("/teste")*/
 public class TesteController {
-
-	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	@ResponseBody
-	public Teste find(@PathVariable("id") long id) {
-		List<String> lista = new ArrayList();
-
-		System.out.print("Teste!");
-		
-		lista.add("Jessica");
-		lista.add("Leticia");
-		lista.add("Lívia");
-		lista.add("Juliana");
-		lista.add("Amanda");
-		
-		return new Teste(lista);
-	}
+//
+//	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+//	@ResponseBody
+//	public Teste find(@PathVariable("id") long id) {
+//		List<String> lista = new ArrayList();
+//
+//		System.out.print("Teste!");
+//		
+//		lista.add("Jessica");
+//		lista.add("Leticia");
+//		lista.add("Lívia");
+//		lista.add("Juliana");
+//		lista.add("Amanda");
+//		
+//		return new Teste(lista);
+//	}
 	
 }
